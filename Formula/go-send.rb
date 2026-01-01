@@ -7,22 +7,22 @@ class GoSend < Formula
   on_macos do
     on_arm do
       url "https://github.com/VinMeld/go-send/releases/download/v2.1.2/go-send_2.1.2_darwin_arm64.tar.gz"
-      sha256 "6eee0a5f56915956b55bedbf3f8c757203dd731f0d53ba57aed6d354d8b681de"
+      sha256 "4870661694f2c49426d8984864b93df632c9b61e95b69d3d058e1cd9aa4bc43e"
     end
     on_intel do
       url "https://github.com/VinMeld/go-send/releases/download/v2.1.2/go-send_2.1.2_darwin_amd64.tar.gz"
-      sha256 "e519a9b62621f50ecf93596fe8411d08ce583126d687858ab7dad54db0bdd46f"
+      sha256 "6d4e0ce3f0f1c584cce305dfedd15f03b49afbd0b14255481aeac4f84b0d5661"
     end
   end
 
   on_linux do
     on_arm do
       url "https://github.com/VinMeld/go-send/releases/download/v2.1.2/go-send_2.1.2_linux_arm64.tar.gz"
-      sha256 "de1873bf1c17cdbeda11c3350835cf6bbd32f6a70e35e633cc2a6fef31be9c5b"
+      sha256 "996250d37a49929d6c5988a5cd6633cc340a963c636592e81365405ebdba1ca0"
     end
     on_intel do
       url "https://github.com/VinMeld/go-send/releases/download/v2.1.2/go-send_2.1.2_linux_amd64.tar.gz"
-      sha256 "b0827805896da986d5d8826dabb536fbf9c76c188bba8a20059f9e9a18c4b724"
+      sha256 "3c6a057aae52aff5994e00d47222f3fce432aeb8dc93d3ac2ec9640cc79ad403"
     end
   end
 
