@@ -5,21 +5,21 @@
 class LeetcodeSr < Formula
   desc "CLI for LeetCode Spaced Repetition Tracker"
   homepage "https://github.com/VinMeld/leetcode-space-repition"
-  version "1.0.2"
+  version "1.0.3"
   license "MIT"
 
   on_macos do
     if Hardware::CPU.intel?
-      url "https://github.com/VinMeld/leetcode-space-repition/releases/download/v1.0.2/leetcode-sr_1.0.2_darwin_amd64.tar.gz"
-      sha256 "fbcef6e7122166df688a0a1abb8bfb118aa6b50a3cc153efbdd483c8451e2d61"
+      url "https://github.com/VinMeld/leetcode-space-repition/releases/download/v1.0.3/leetcode-sr_1.0.3_darwin_amd64.tar.gz"
+      sha256 "cf66009a633d2d332efef0cd711b047634d5709f8f028e080baf61df81505443"
 
       def install
         bin.install "leetcode-sr"
       end
     end
     if Hardware::CPU.arm?
-      url "https://github.com/VinMeld/leetcode-space-repition/releases/download/v1.0.2/leetcode-sr_1.0.2_darwin_arm64.tar.gz"
-      sha256 "90bd718a3517c9edd129a47cc00a68dc6f7586736b393a1553dc04619fce8992"
+      url "https://github.com/VinMeld/leetcode-space-repition/releases/download/v1.0.3/leetcode-sr_1.0.3_darwin_arm64.tar.gz"
+      sha256 "1c0ad90c75b53b8f6affffb0a78ef01cf8d0759098d77785c4833ea6b9d4291d"
 
       def install
         bin.install "leetcode-sr"
@@ -29,15 +29,15 @@ class LeetcodeSr < Formula
 
   on_linux do
     if Hardware::CPU.intel? && Hardware::CPU.is_64_bit?
-      url "https://github.com/VinMeld/leetcode-space-repition/releases/download/v1.0.2/leetcode-sr_1.0.2_linux_amd64.tar.gz"
-      sha256 "7390abdcb5ff49035810f78ebe27f7c8b8b9bc2252bc55c2b1fd890491dfcec1"
+      url "https://github.com/VinMeld/leetcode-space-repition/releases/download/v1.0.3/leetcode-sr_1.0.3_linux_amd64.tar.gz"
+      sha256 "0247049a9b47be0ab43d9db206d97162b0edd5db92db8ceaa3a8beb08ca4b342"
       def install
         bin.install "leetcode-sr"
       end
     end
     if Hardware::CPU.arm? && Hardware::CPU.is_64_bit?
-      url "https://github.com/VinMeld/leetcode-space-repition/releases/download/v1.0.2/leetcode-sr_1.0.2_linux_arm64.tar.gz"
-      sha256 "0e41f4095689c72be872c77744233086949f844d5ca940f608acde83303c5995"
+      url "https://github.com/VinMeld/leetcode-space-repition/releases/download/v1.0.3/leetcode-sr_1.0.3_linux_arm64.tar.gz"
+      sha256 "c08a0c4a4b573627f46d9617957eebb230d9179a925c71f3ab13d1c3d054bc21"
       def install
         bin.install "leetcode-sr"
       end
