@@ -1,28 +1,28 @@
 class LeetcodeSr < Formula
   desc "CLI for LeetCode spaced repetition practice"
   homepage "https://github.com/VinMeld/leetcode-space-repition"
-  version "2.3.2"
+  version "2.3.3"
   license "MIT"
 
   on_macos do
     on_arm do
-      url "https://github.com/VinMeld/leetcode-space-repition/releases/download/v2.3.2/leetcode-sr_2.3.2_darwin_arm64.tar.gz"
-      sha256 "7b3224f30f8302924ef4f985d9d13f82474a1c11f146e1fc7f99a6b801d709bb"
+      url "https://github.com/VinMeld/leetcode-space-repition/releases/download/v2.3.3/leetcode-sr_2.3.3_darwin_arm64.tar.gz"
+      sha256 "e406482fde706e9bd312466ef4b3c8e11b2b201b5d3b55dbd9ea6570a2f48649"
     end
     on_intel do
-      url "https://github.com/VinMeld/leetcode-space-repition/releases/download/v2.3.2/leetcode-sr_2.3.2_darwin_amd64.tar.gz"
-      sha256 "7f179a67dee5c99441731d2d03dedd4438c29e53371272164329b1e0efe7e62b"
+      url "https://github.com/VinMeld/leetcode-space-repition/releases/download/v2.3.3/leetcode-sr_2.3.3_darwin_amd64.tar.gz"
+      sha256 "a3e44c1196b38a4e489ebfb915bd95d7ffc0b44530d9d013d2ca31830a43b755"
     end
   end
 
   on_linux do
     on_arm do
-      url "https://github.com/VinMeld/leetcode-space-repition/releases/download/v2.3.2/leetcode-sr_2.3.2_linux_arm64.tar.gz"
-      sha256 "08454cfe96a23252192398ec6deb53791469635bec54a2b8876adf17450576f5"
+      url "https://github.com/VinMeld/leetcode-space-repition/releases/download/v2.3.3/leetcode-sr_2.3.3_linux_arm64.tar.gz"
+      sha256 "3701936a04f1b881d4cc15cdc72e8396af9cfaa932230c628b96d1d70d77174f"
     end
     on_intel do
-      url "https://github.com/VinMeld/leetcode-space-repition/releases/download/v2.3.2/leetcode-sr_2.3.2_linux_amd64.tar.gz"
-      sha256 "a7e0c0c6ba6aed93ef3fbe4729f349092a18afa8d7245485c1f79efced0289b8"
+      url "https://github.com/VinMeld/leetcode-space-repition/releases/download/v2.3.3/leetcode-sr_2.3.3_linux_amd64.tar.gz"
+      sha256 "ea3a9d38eab8c0dec23d042876055ff70e7581318dfef8ca0904a40deb0fabca"
     end
   end
 
