@@ -11,7 +11,7 @@ class LeetcodeSr < Formula
   on_macos do
     if Hardware::CPU.intel?
       url "https://github.com/VinMeld/leetcode-space-repition/releases/download/v2.0.2/leetcode-sr_2.0.2_darwin_amd64.tar.gz"
-      sha256 "7894fb579f396b6d0e7f5147c94ea8cb9a5c2b4bf345b669d7b155dcc7ca114c"
+      sha256 "9dc7b3bc97b3808433b24c7caf7dfd1d562debbfbe1199ccbf869794636fcc4c"
 
       def install
         bin.install "leetcode-sr"
@@ -19,7 +19,7 @@ class LeetcodeSr < Formula
     end
     if Hardware::CPU.arm?
       url "https://github.com/VinMeld/leetcode-space-repition/releases/download/v2.0.2/leetcode-sr_2.0.2_darwin_arm64.tar.gz"
-      sha256 "feb1e6eeebfc7684656c99cb922ff3feab839ccc1df683e1bd8b3c66c556e198"
+      sha256 "987d7f9595bcd62d20491f9afbec979140e74e4e462e641132c3e88dc16f0b7a"
 
       def install
         bin.install "leetcode-sr"
@@ -30,14 +30,14 @@ class LeetcodeSr < Formula
   on_linux do
     if Hardware::CPU.intel? && Hardware::CPU.is_64_bit?
       url "https://github.com/VinMeld/leetcode-space-repition/releases/download/v2.0.2/leetcode-sr_2.0.2_linux_amd64.tar.gz"
-      sha256 "dfc7fd032d1df6b4f75fe0c8cd429fb3c272578ecc997d35bde6bb50541b5141"
+      sha256 "b62588bafa2e3f42093ef15f52db409e5b9a23d3f9d7d3942e00b760bc3d8879"
       def install
         bin.install "leetcode-sr"
       end
     end
     if Hardware::CPU.arm? && Hardware::CPU.is_64_bit?
       url "https://github.com/VinMeld/leetcode-space-repition/releases/download/v2.0.2/leetcode-sr_2.0.2_linux_arm64.tar.gz"
-      sha256 "90546f379196843529aac7e3d29a77269504bb16d46d8e36a811e842abdfe22d"
+      sha256 "0acb5fe77870d7b29badb70d36b79dee5ae80ea0d2f3a1116c43e64e2df2a0b0"
       def install
         bin.install "leetcode-sr"
       end
